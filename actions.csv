@@ -1,0 +1,6 @@
+priority,supplier,intent,subject,action,days_late,value_at_risk
+HIGH,Ankara Hardware,complaint,Damaged units in last delivery,"Thank you for flagging this. Please send photos of the affected units, the batch/lot number, and your proposal for credit or replacement. We'll confirm within 24 hours.",0,
+HIGH,Istanbul Textiles,shipping,Shipment update,"Please send the AWB, vessel/container number and the ETD/ETA for this shipment so we can update our tracking sheet and notify the customer.",0,
+HIGH,Mumbai Components,delay,URGENT - production delay,"Noted on the delay - I need a firm revised ship date in writing today, plus the reason. If the new date slips our window we'll need to split the shipment and air-freight the shortfall at your cost. Please confirm by end of day.",0,
+HIGH,Shenzhen Yuan Trading,quote,Re: PO-1042 quotation request,"Thanks for your email. Could you confirm your best unit price, MOQ and lead time for the quantities on our last order? We're ready to place the next one this week and will confirm on receipt.",6,
+MEDIUM,Guangzhou Print Co,invoice,Invoice INV-88213 attached,Thanks - we have the invoice. Our finance runs payments on the 15th and 30th; please confirm the PO number matches so it clears on the next run without a query.,2,

@@ -1,0 +1,6 @@
+FROM: Shenzhen Yuan Trading
+SUBJECT: Re: PO-1042 quotation request
+
+Re: PO-1042 quotation request
+
+Hi, please find our updated pricing. Unit cost is $4.20 at MOQ 500. Lead time 25 days. Payment 30% deposit. This quote is valid 14 days.

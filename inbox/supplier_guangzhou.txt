@@ -1,0 +1,6 @@
+FROM: Guangzhou Print Co
+SUBJECT: Invoice INV-88213 attached
+
+Invoice INV-88213 attached
+
+Outstanding balance USD 11,480 against PO-1019. Kindly arrange remittance this week.

@@ -1,0 +1,6 @@
+FROM: Istanbul Textiles
+SUBJECT: Shipment update
+
+Shipment update
+
+We have shipped 3 cartons today. AWB 176-44219955. ETD 12 Oct, ETA Lagos 19 Oct. Please confirm the consignee address is unchanged.

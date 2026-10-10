@@ -1,0 +1,6 @@
+FROM: Mumbai Components
+SUBJECT: URGENT - production delay
+
+URGENT - production delay
+
+Due to a raw material shortage our line is delayed by 9 days. We may not make the 15 Oct deadline. Please advise urgently.

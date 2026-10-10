@@ -1,0 +1,7 @@
+order_id,supplier,promised_ship,status,qty,unit_cost
+PO-1042,Shenzhen Yuan Trading,2026-10-04,in_transit,500,4.2
+PO-1019,Guangzhou Print Co,2026-10-08,awaiting,2400,4.78
+PO-1031,Istanbul Textiles,2026-10-14,in_transit,300,9.1
+PO-0988,Nairobi Supplies,2026-09-26,awaiting,150,22.0
+PO-1055,Mumbai Components,2026-10-12,awaiting,800,6.35
+PO-0975,Lagos Packaging,2026-09-10,delivered,1000,1.1

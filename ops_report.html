@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ops report</title><style>
+ body{margin:0;padding:26px 16px;background:#f5f6f8;color:#111827;
+   font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+ .w{max-width:1000px;margin:0 auto}
+ h1{font-size:22px;margin:0 0 2px} .sub{color:#6b7280;font-size:13px;margin-bottom:20px}
+ .cards{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+ .card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:14px 18px;flex:1;min-width:150px}
+ .card .n{font-size:24px;font-weight:700} .card .l{color:#6b7280;font-size:12px;text-transform:uppercase;letter-spacing:.5px}
+ h2{font-size:16px;margin:26px 0 8px}
+ table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #e5e7eb;border-radius:10px;overflow:hidden}
+ th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#6b7280;
+   padding:9px 10px;border-bottom:1px solid #e5e7eb;background:#fafbfc}
+ td{padding:10px;border-bottom:1px solid #f1f2f4;vertical-align:top;font-size:14px}
+ .mut{color:#6b7280;font-size:12px} .bad{color:#dc2626;font-weight:700}
+ .pill{display:inline-block;padding:2px 8px;border-radius:99px;font-size:11px;font-weight:700}
+ .pill.hi{background:#fee2e2;color:#991b1b} .pill.md{background:#fef3c7;color:#92400e}
+ .pill.lo{background:#e0f2fe;color:#075985}
+ .draft{color:#374151;max-width:380px}
+ footer{color:#9ca3af;font-size:12px;text-align:center;margin-top:24px}
+</style></head><body><div class="w">
+ <h1>Supplier operations report</h1>
+ <div class="sub">generated 2026-10-10 · 5 emails triaged · 3 late orders</div>
+ <div class="cards">
+   <div class="card"><div class="n">5</div><div class="l">Emails triaged</div></div>
+   <div class="card"><div class="n" style="color:#dc2626">4</div><div class="l">High priority</div></div>
+   <div class="card"><div class="n" style="color:#dc2626">3</div><div class="l">Overdue orders</div></div>
+   <div class="card"><div class="n">$16,872</div><div class="l">Value at risk</div></div>
+ </div>
+ <h2>Inbox triage &amp; drafted replies</h2>
+ <table><thead><tr><th>Priority</th><th>Supplier</th><th>Intent</th><th>Drafted follow-up</th></tr></thead>
+ <tbody>
+      <tr>
+        <td><span class="pill hi">HIGH</span></td>
+        <td><b>Ankara Hardware</b><div class="mut">Damaged units in last delivery</div></td>
+        <td>complaint
+            <div class="mut">78% · damaged</div></td>
+        <td class="draft">Thank you for flagging this. Please send photos of the affected units, the batch/lot number, and your proposal for credit or replacement. We&#x27;ll confirm within 24 hours.</td>
+      </tr>
+      <tr>
+        <td><span class="pill hi">HIGH</span></td>
+        <td><b>Istanbul Textiles</b><div class="mut">Shipment update</div></td>
+        <td>shipping
+            <div class="mut">78% · shipped</div></td>
+        <td class="draft">Please send the AWB, vessel/container number and the ETD/ETA for this shipment so we can update our tracking sheet and notify the customer.</td>
+      </tr>
+      <tr>
+        <td><span class="pill hi">HIGH</span></td>
+        <td><b>Mumbai Components</b><div class="mut">URGENT - production delay</div></td>
+        <td>delay
+            <div class="mut">78% · delay</div></td>
+        <td class="draft">Noted on the delay - I need a firm revised ship date in writing today, plus the reason. If the new date slips our window we&#x27;ll need to split the shipment and air-freight the shortfall at your cost. Please confirm by end of day.</td>
+      </tr>
+      <tr>
+        <td><span class="pill hi">HIGH</span></td>
+        <td><b>Shenzhen Yuan Trading</b><div class="mut">Re: PO-1042 quotation request</div></td>
+        <td>quote
+            <div class="mut">78% · quotation</div></td>
+        <td class="draft">Thanks for your email. Could you confirm your best unit price, MOQ and lead time for the quantities on our last order? We&#x27;re ready to place the next one this week and will confirm on receipt.</td>
+      </tr>
+      <tr>
+        <td><span class="pill md">MEDIUM</span></td>
+        <td><b>Guangzhou Print Co</b><div class="mut">Invoice INV-88213 attached</div></td>
+        <td>invoice
+            <div class="mut">78% · invoice</div></td>
+        <td class="draft">Thanks - we have the invoice. Our finance runs payments on the 15th and 30th; please confirm the PO number matches so it clears on the next run without a query.</td>
+      </tr></tbody></table>
+ <h2>Overdue orders</h2>
+ <table><thead><tr><th>Order</th><th>Supplier</th><th>Promised</th><th>Late by</th><th>Qty</th><th>Value</th></tr></thead>
+ <tbody>
+      <tr>
+        <td>PO-0988</td>
+        <td>Nairobi Supplies</td>
+        <td>2026-09-26</td>
+        <td class="bad">+14d</td>
+        <td>150</td>
+        <td>$3,300</td>
+      </tr>
+      <tr>
+        <td>PO-1042</td>
+        <td>Shenzhen Yuan Trading</td>
+        <td>2026-10-04</td>
+        <td class="bad">+6d</td>
+        <td>500</td>
+        <td>$2,100</td>
+      </tr>
+      <tr>
+        <td>PO-1019</td>
+        <td>Guangzhou Print Co</td>
+        <td>2026-10-08</td>
+        <td class="bad">+2d</td>
+        <td>2400</td>
+        <td>$11,472</td>
+      </tr></tbody></table>
+ <footer>Supplier Ops Agent — automation sample</footer>
+</div></body></html>
